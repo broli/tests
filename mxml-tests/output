@@ -1,0 +1,409 @@
+typo element  : iSiloXDocumentList        cant attr:  0
+typo element  : iSiloXDocument            cant attr:  0
+typo element  : Source                    cant attr:  0
+typo element  : Sources                   cant attr:  0
+typo element  : Path                      cant attr:  0
+typo text     : http://www.iSilo.com      whitespace? 0
+typo element  : Path                      cant attr:  0
+typo text     : http://www.iSiloX.com     whitespace? 0
+typo element  : UserName                  cant attr:  0
+typo text     : Joe                       whitespace? 0
+typo element  : Password                  cant attr:  0
+typo text     : Joe's                     whitespace? 0
+typo text     : Password                  whitespace? 1
+typo element  : CharSet                   cant attr:  0
+typo text     : iso-8859-1                whitespace? 0
+typo element  : Destination               cant attr:  0
+typo element  : Title                     cant attr:  0
+typo text     : My                        whitespace? 0
+typo text     : Document                  whitespace? 1
+typo element  : HotSync                   cant attr:  0
+typo element  : Path                      cant attr:  0
+typo text     : John                      whitespace? 0
+typo text     : Doe                       whitespace? 1
+typo element  : Path                      cant attr:  0
+typo text     : Jane                      whitespace? 0
+typo text     : Doe:                      whitespace? 1
+typo element  : ActiveSync                cant attr:  0
+typo element  : Path                      cant attr:  0
+typo text     : PocketPC                  whitespace? 0
+typo element  : Path                      cant attr:  0
+typo text     : PocketPC:                 whitespace? 0
+typo element  : Files                     cant attr:  0
+typo element  : Path                      cant attr:  0
+typo text     : c:\My                     whitespace? 0
+typo text     : Documents\My              whitespace? 1
+typo text     : Document.pdb              whitespace? 1
+typo element  : Path                      cant attr:  0
+typo text     : c:\Backup\My              whitespace? 0
+typo text     : Document.pdb              whitespace? 1
+typo element  : LinkOptions               cant attr:  0
+typo element  : MaximumDepth              cant attr:  1
+                                             value:          1
+typo element  : FollowOffsite             cant attr:  1
+                                             value:        yes
+typo element  : MaximumOffsiteDepth       cant attr:  1
+                                             value:          1
+typo element  : SubDirOnly                cant attr:  1
+                                             value:         no
+typo element  : UnresolvedDetail          cant attr:  1
+                                             value:    include
+typo element  : Exclude                   cant attr:  0
+typo element  : Pattern                   cant attr:  0
+typo text     : RE::table[1-9].jpg        whitespace? 0
+typo element  : Pattern                   cant attr:  0
+typo text     : WC::figures*plant?blue    whitespace? 0
+typo element  : Include                   cant attr:  0
+typo element  : Pattern                   cant attr:  0
+typo text     : RE:C:Table8               whitespace? 0
+typo element  : ExternalDocuments         cant attr:  0
+typo element  : Specification             cant attr:  0
+typo element  : Path                      cant attr:  0
+typo text     : DocumentB                 whitespace? 0
+typo element  : Prefix                    cant attr:  0
+typo text     : DocumentB                 whitespace? 0
+typo element  : KeepPrefix                cant attr:  1
+                                             value:         no
+typo element  : MapFile                   cant attr:  0
+typo text     : c:\Docs\DocumentB\DocumentB.map whitespace? 0
+typo element  : Lookup                    cant attr:  1
+                                             value:       ByID
+typo element  : ImageOptions              cant attr:  0
+typo element  : AltText                   cant attr:  1
+                                             value:    exclude
+typo element  : Images                    cant attr:  1
+                                             value:    include
+typo element  : ResizeLargeImages         cant attr:  1
+                                             value:        yes
+typo element  : MaximumWidth              cant attr:  1
+                                             value:        144
+typo element  : MaximumHeight             cant attr:  1
+                                             value:        144
+typo element  : ImproveContrast           cant attr:  1
+                                             value:        yes
+typo element  : Dither                    cant attr:  1
+                                             value:        yes
+typo element  : Compress                  cant attr:  1
+                                             value:        yes
+typo element  : LossyLevel                cant attr:  1
+                                             value:       none
+typo element  : LossyQuality              cant attr:  1
+                                             value:         75
+typo element  : BitDepth1                 cant attr:  1
+                                             value:    exclude
+typo element  : BitDepth2                 cant attr:  1
+                                             value:    exclude
+typo element  : BitDepth4                 cant attr:  1
+                                             value:    exclude
+typo element  : BitDepth8                 cant attr:  1
+                                             value:    exclude
+typo element  : BitDepth16                cant attr:  1
+                                             value:    include
+typo element  : TableOptions              cant attr:  0
+typo element  : IgnoreTables              cant attr:  1
+                                             value:         no
+typo element  : AddSeparators             cant attr:  1
+                                             value:         no
+typo element  : UseMinimumDepth           cant attr:  1
+                                             value:         no
+typo element  : MinimumDepth              cant attr:  1
+                                             value:          1
+typo element  : UseMaximumBottomReach     cant attr:  1
+                                             value:         no
+typo element  : MaximumBottomReach        cant attr:  1
+                                             value:          1
+typo element  : UnfoldFullPageTables      cant attr:  1
+                                             value:         no
+typo element  : IgnorePixelWidths         cant attr:  1
+                                             value:         no
+typo element  : ColorOptions              cant attr:  0
+typo element  : BackgroundColors          cant attr:  1
+                                             value:       keep
+typo element  : TextColors                cant attr:  1
+                                             value:       keep
+typo element  : MarginOptions             cant attr:  0
+typo element  : LeftRightMargins          cant attr:  1
+                                             value:       keep
+typo element  : LeftRightPadding          cant attr:  1
+                                             value:       keep
+typo element  : SecurityOptions           cant attr:  0
+typo element  : Convert                   cant attr:  1
+                                             value:      allow
+typo element  : CopyBeam                  cant attr:  1
+                                             value:      allow
+typo element  : CopyAndPaste              cant attr:  1
+                                             value:      allow
+typo element  : Modify                    cant attr:  1
+                                             value:   disallow
+typo element  : Print                     cant attr:  1
+                                             value:   disallow
+typo element  : Expiration                cant attr:  0
+typo element  : Expires                   cant attr:  1
+                                             value:         no
+typo element  : Date                      cant attr:  1
+                                             value:   20030529
+typo element  : Password                  cant attr:  0
+typo element  : Require                   cant attr:  1
+                                             value:         no
+typo element  : Password                  cant attr:  0
+typo text     : MyPassword                whitespace? 0
+typo element  : RegistrationCode          cant attr:  0
+typo element  : Require                   cant attr:  1
+                                             value:         no
+typo element  : DocumentID                cant attr:  0
+typo text     : UniqueID55PC              whitespace? 0
+typo element  : TextOptions               cant attr:  0
+typo element  : PreUseMonospaceFont       cant attr:  1
+                                             value:        yes
+typo element  : PreSingleLineBreaks       cant attr:  1
+                                             value:    KeepAll
+typo element  : ProcessLineBreaks         cant attr:  1
+                                             value:        yes
+typo element  : ConvertSingleLineBreaks   cant attr:  1
+                                             value:         no
+typo element  : Preformatted              cant attr:  1
+                                             value:         no
+typo element  : UseMonospaceFont          cant attr:  1
+                                             value:         no
+typo element  : MonospaceFontSize         cant attr:  1
+                                             value:         10
+typo element  : TabStopWidth              cant attr:  1
+                                             value:          8
+typo element  : DocumentOptions           cant attr:  0
+typo element  : PageBounds                cant attr:  1
+                                             value:       hard
+typo element  : UseDefaultCategory        cant attr:  1
+                                             value:         no
+typo element  : DefaultCategory           cant attr:  0
+typo text     : Unfiled                   whitespace? 0
+typo element  : HomePageNumber            cant attr:  1
+                                             value:          1
+typo element  : OpenHomePageOnDateChange  cant attr:  1
+                                             value:        yes
+typo element  : CharSet                   cant attr:  0
+typo text     : Windows-1252              whitespace? 0
+typo element  : Bookmarks                 cant attr:  0
+typo element  : Document                  cant attr:  0
+typo element  : UseFile                   cant attr:  1
+                                             value:         no
+typo element  : Path                      cant attr:  0
+typo text     : c:\docs\bookmarks.htm     whitespace? 0
+typo element  : UseNamedAnchors           cant attr:  1
+                                             value:         no
+typo element  : NamedAnchorType           cant attr:  1
+                                             value: WordWebPage
+typo element  : UseIncludeFilter          cant attr:  1
+                                             value:         no
+typo element  : IncludePrefix             cant attr:  0
+typo text     : bm                        whitespace? 0
+typo element  : UseExcludeFilter          cant attr:  1
+                                             value:         no
+typo element  : ExcludePrefix             cant attr:  0
+typo text     : bm_                       whitespace? 0
+typo element  : LastConversion            cant attr:  0
+typo element  : Date                      cant attr:  0
+typo text     : 2002/08/01                whitespace? 0
+typo text     : 08:12:02                  whitespace? 1
+typo element  : Size                      cant attr:  1
+                                             value:  123456789
+typo element  : Status                    cant attr:  0
+typo text     : Conversion                whitespace? 0
+typo text     : successful                whitespace? 1
+typo element  : Messages                  cant attr:  0
+typo element  : Title                     cant attr:  0
+typo text     : My                        whitespace? 0
+typo text     : Document's                whitespace? 1
+typo text     : Full                      whitespace? 1
+typo text     : Title                     whitespace? 1
+typo text     : Is                        whitespace? 1
+typo text     : Written                   whitespace? 1
+typo text     : Here                      whitespace? 1
+typo element  : Version                   cant attr:  0
+typo text     : v.                        whitespace? 0
+typo text     : 2.1                       whitespace? 1
+typo element  : Copyright                 cant attr:  0
+typo text     : (C)                       whitespace? 0
+typo text     : 2003                      whitespace? 1
+typo text     : ACME,                     whitespace? 1
+typo text     : Inc.                      whitespace? 1
+typo element  : Notes                     cant attr:  0
+typo text     : This                      whitespace? 0
+typo text     : document                  whitespace? 1
+typo text     : is                        whitespace? 1
+typo text     : protected                 whitespace? 1
+typo text     : by                        whitespace? 1
+typo text     : copyright                 whitespace? 1
+typo text     : law.                      whitespace? 1
+typo element  : AuthorName                cant attr:  0
+typo text     : Yar                       whitespace? 0
+typo text     : Givin                     whitespace? 1
+typo element  : AuthorContact             cant attr:  0
+typo text     : yar@givin.com             whitespace? 0
+typo element  : AuthorNotes               cant attr:  0
+typo text     : Email                     whitespace? 0
+typo text     : me                        whitespace? 1
+typo text     : with                      whitespace? 1
+typo text     : your                      whitespace? 1
+typo text     : comments.                 whitespace? 1
+typo element  : PublisherName             cant attr:  0
+typo text     : Tasteful                  whitespace? 0
+typo text     : Publishers,               whitespace? 1
+typo text     : Inc.                      whitespace? 1
+typo element  : PublisherContact          cant attr:  0
+typo text     : contact@tastefulpublishers.com whitespace? 0
+typo element  : PublisherNotes            cant attr:  0
+typo text     : Publishers                whitespace? 0
+typo text     : of                        whitespace? 1
+typo text     : anything.                 whitespace? 1
+typo element  : RegCodePreMsg             cant attr:  0
+typo text     : This                      whitespace? 0
+typo text     : document                  whitespace? 1
+typo text     : requires                  whitespace? 1
+typo text     : that                      whitespace? 1
+typo text     : you                       whitespace? 1
+typo text     : enter                     whitespace? 1
+typo text     : a                         whitespace? 1
+typo text     : registration              whitespace? 1
+typo text     : code.                     whitespace? 1
+typo text     : If                        whitespace? 1
+typo text     : you                       whitespace? 1
+typo text     : do                        whitespace? 1
+typo text     : not                       whitespace? 1
+typo text     : have                      whitespace? 1
+typo text     : one,                      whitespace? 1
+typo text     : please                    whitespace? 1
+typo text     : visit                     whitespace? 1
+typo text     : http://www.acme.com       whitespace? 1
+typo text     : for                       whitespace? 1
+typo text     : more                      whitespace? 1
+typo text     : information.              whitespace? 1
+typo element  : RegCodeFailedMsg          cant attr:  0
+typo text     : To                        whitespace? 0
+typo text     : purchase                  whitespace? 1
+typo text     : this                      whitespace? 1
+typo text     : document,                 whitespace? 1
+typo text     : please                    whitespace? 1
+typo text     : visit:\nhttp://www.acme.com whitespace? 1
+typo element  : RegCodeCancelMsg          cant attr:  0
+typo text     : To                        whitespace? 0
+typo text     : purchase                  whitespace? 1
+typo text     : this                      whitespace? 1
+typo text     : document,                 whitespace? 1
+typo text     : please                    whitespace? 1
+typo text     : visit:\nhttp://www.acme.com whitespace? 1
+typo element  : PasswordPreMsg            cant attr:  0
+typo text     : This                      whitespace? 0
+typo text     : document                  whitespace? 1
+typo text     : requires                  whitespace? 1
+typo text     : a                         whitespace? 1
+typo text     : password.                 whitespace? 1
+typo element  : PasswordFailedMsg         cant attr:  0
+typo text     : Note                      whitespace? 0
+typo text     : that                      whitespace? 1
+typo text     : it                        whitespace? 1
+typo text     : is                        whitespace? 1
+typo text     : a                         whitespace? 1
+typo text     : felony                    whitespace? 1
+typo text     : to                        whitespace? 1
+typo text     : attempt                   whitespace? 1
+typo text     : to                        whitespace? 1
+typo text     : access                    whitespace? 1
+typo text     : this                      whitespace? 1
+typo text     : document                  whitespace? 1
+typo text     : without                   whitespace? 1
+typo text     : authorization.            whitespace? 1
+typo element  : PasswordCancelMsg         cant attr:  0
+typo text     : Consult                   whitespace? 0
+typo text     : your                      whitespace? 1
+typo text     : administrator             whitespace? 1
+typo text     : for                       whitespace? 1
+typo text     : more                      whitespace? 1
+typo text     : information.              whitespace? 1
+typo element  : ExpiredMsg                cant attr:  0
+typo text     : This                      whitespace? 0
+typo text     : document                  whitespace? 1
+typo text     : has                       whitespace? 1
+typo text     : expired,                  whitespace? 1
+typo text     : please                    whitespace? 1
+typo text     : visit                     whitespace? 1
+typo text     : http://www.acme.org       whitespace? 1
+typo text     : for                       whitespace? 1
+typo text     : an                        whitespace? 1
+typo text     : updated                   whitespace? 1
+typo text     : version.                  whitespace? 1
+typo element  : CookieOptions             cant attr:  0
+typo element  : SendCookies               cant attr:  1
+                                             value:         no
+typo element  : ReceiveCookies            cant attr:  1
+                                             value:         no
+typo element  : Cookies                   cant attr:  0
+typo element  : Cookie                    cant attr:  0
+typo element  : ReadOnly                  cant attr:  1
+                                             value:         no
+typo element  : DoNotSend                 cant attr:  1
+                                             value:         no
+typo element  : Discard                   cant attr:  1
+                                             value:         no
+typo element  : Secure                    cant attr:  1
+                                             value:         no
+typo element  : Name                      cant attr:  0
+typo text     : TOKEN                     whitespace? 0
+typo element  : Value                     cant attr:  0
+typo text     : 48A897ZUIO98              whitespace? 0
+typo element  : Expires                   cant attr:  0
+typo text     : 2015/12/25                whitespace? 0
+typo text     : 08:52:12                  whitespace? 1
+typo element  : Version                   cant attr:  0
+typo text     : 1                         whitespace? 0
+typo element  : Path                      cant attr:  0
+typo text     : /                         whitespace? 0
+typo element  : Port                      cant attr:  0
+typo text     : 80,8000                   whitespace? 0
+typo element  : Domain                    cant attr:  0
+typo text     : .foo.com                  whitespace? 0
+typo element  : Comments                  cant attr:  0
+typo text     : none                      whitespace? 0
+typo element  : CommentURL                cant attr:  0
+typo text     : http://www.foo.com/cookies.htm whitespace? 0
+typo element  : Scheduling                cant attr:  0
+typo element  : Disable                   cant attr:  1
+                                             value:         no
+typo element  : LastConversion            cant attr:  0
+typo text     : 2003/03/11                whitespace? 0
+typo text     : 16:23:02                  whitespace? 1
+typo element  : NextConversion            cant attr:  0
+typo text     : 2003/03/12                whitespace? 0
+typo text     : 15:17:00                  whitespace? 1
+typo element  : Schedules                 cant attr:  0
+typo element  : Schedule                  cant attr:  0
+typo element  : Disable                   cant attr:  1
+                                             value:         no
+typo element  : LastConversion            cant attr:  0
+typo text     : 2003/03/11                whitespace? 0
+typo text     : 16:23:02                  whitespace? 1
+typo element  : NextConversion            cant attr:  0
+typo text     : 2003/03/12                whitespace? 0
+typo text     : 15:17:00                  whitespace? 1
+typo element  : Frequency                 cant attr:  1
+                                             value:     hourly
+typo element  : Time                      cant attr:  1
+                                             value:         17
+typo element  : Weekday                   cant attr:  1
+                                             value:        Mon
+typo element  : Day                       cant attr:  1
+                                             value:         31
+typo element  : Type                      cant attr:  1
+                                             value:      every
+typo element  : Every                     cant attr:  1
+                                             value:          1
+typo element  : Targets                   cant attr:  0
+typo element  : Export                    cant attr:  1
+                                             value:        all
+typo element  : ByFile                    cant attr:  0
+typo text     : c:\Docs\export.htm        whitespace? 0
+typo element  : Lookup                    cant attr:  1
+                                             value:     ByName
+typo element  : GenerateMapFile           cant attr:  1
+                                             value:        yes
+typo element  : MapFile                   cant attr:  0
+typo text     : c:\Docs\DocumentX.map     whitespace? 0
