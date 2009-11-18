@@ -14,24 +14,17 @@
   {
     struct lconv *loc=NULL;
     char *Alocale=NULL;
-    wchar_t *currency=NULL;
     
     Alocale = setlocale(LC_CTYPE, NULL);
-    printf("antes: %s\n--------------------------------\n",Alocale);
+    printf("before: %s\n--------------------------------\n",Alocale);
     loc = localeconv ();
-    currency = malloc ( strlen (loc->int_curr_symbol) );
-    mbstowcs ( currency,loc->int_curr_symbol,strlen (loc->int_curr_symbol));
-    printf("plata: %ls-\n",currency);
-    free ( currency);
+    printf("plata: %s-\n",loc->currency_symbol);
 
     Alocale = setlocale(LC_CTYPE, "");
-    printf("despues: %s\n------------------------------\n",Alocale);
+    printf("after: %s\n------------------------------\n",Alocale);
     loc = localeconv ();
 
-    currency = malloc ( strlen (loc->int_curr_symbol) );
-    mbstowcs ( currency,loc->int_curr_symbol,strlen (loc->int_curr_symbol));
-    printf("plata: %ls-\n",currency);
-    free ( currency);
+    printf("plata: %s-\n",loc->currency_symbol);
     
     return 0;
   }
