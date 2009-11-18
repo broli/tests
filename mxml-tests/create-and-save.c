@@ -9,7 +9,7 @@ const char *whitespace_cb(mxml_node_t *node, int where)
 	const char *Parname;
 	name = node->value.element.name;
 	
-	if (where == 1 && strcmp(name, "?xml version=\"1.0\"?") == 0)
+	if (where == 1 && strcmp(name, "?xml version=\"1.0\" encoding=\"utf-8\"?") == 0)
 		return "\n";
 	if (where == 1 && strcmp(name, "data") == 0)
 		return "\n";
@@ -47,7 +47,7 @@ int main(void)
     data = mxmlNewElement(xml, "data");
 
         node = mxmlNewElement(data, "node");
-        mxmlNewText(node, 0, "val1");
+        mxmlNewText(node, 0, "val 1");
         node = mxmlNewElement(data, "node");
         mxmlNewText(node, 0, "val2");
         node = mxmlNewElement(data, "node");
