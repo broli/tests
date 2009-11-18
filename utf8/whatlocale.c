@@ -15,12 +15,12 @@
     struct lconv *loc=NULL;
     char *Alocale=NULL;
     
-    Alocale = setlocale(LC_CTYPE, NULL);
+    Alocale = setlocale(LC_ALL, NULL);
     printf("before: %s\n--------------------------------\n",Alocale);
     loc = localeconv ();
     printf("plata: %s-\n",loc->currency_symbol);
 
-    Alocale = setlocale(LC_CTYPE, "");
+    Alocale = setlocale(LC_ALL, "");
     printf("after: %s\n------------------------------\n",Alocale);
     loc = localeconv ();
 
