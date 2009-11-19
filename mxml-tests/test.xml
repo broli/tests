@@ -8,7 +8,7 @@
         <Path>http://www.iSiloX.com</Path>
       </Sources>
       <UserName>Joe</UserName>
-      <Password>Joe's Password</Password>
+      <Password>Joe's Password</Password>  
       <CharSet>iso-8859-1</CharSet>
     </Source>
 

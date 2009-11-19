@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 		return EXIT_FAILURE;
 	}
 	fp = fopen(argv[1], "r");
-	tree = mxmlLoadFile(NULL, fp, MXML_TEXT_CALLBACK);
+	tree = mxmlLoadFile(NULL, fp, MXML_OPAQUE_CALLBACK);
 	
 	node = mxmlWalkNext(tree, tree, MXML_DESCEND);
 	while ( node != NULL)
@@ -29,14 +29,18 @@ int main(int argc, char *argv[])
 			if ( node->value.element.num_attrs > 0 )
 			{
 				value = mxmlElementGetAttr(node, "value");
-				printf ("%45svalue: %10s\n","",value);
+				printf ("*%44svalue: %10s\n","",value);
 
 			}
 		}
 		if ( node->type == MXML_INTEGER )
 			printf ("typo integer\n");
 		if ( node->type == MXML_OPAQUE )
-			printf ("typo opaque\n");
+		{
+			if (node->value.opaque[0] != '\n' )
+				printf ("%-14s: %-25s\n","typo opaque",node->value.opaque);
+
+		}
 		if ( node->type == MXML_REAL )
 			printf ("typo real\n");
 		if ( node->type == MXML_TEXT )
