@@ -19,7 +19,9 @@ int main(int argc, char *argv[])
 	fp = fopen(argv[1], "r");
 	tree = mxmlLoadFile(NULL, fp, MXML_OPAQUE_CALLBACK);
 	
-	node = mxmlFindElement(tree,tree,argv[2],NULL,NULL,MXML_DESCEND);
+	node = mxmlFindElement(tree,tree, /*search from the top*/
+				argv[2],NULL,NULL, /*search element name*/
+				MXML_DESCEND);
 	
 	if ( node != NULL)
 	{
