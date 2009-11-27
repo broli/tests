@@ -54,6 +54,10 @@ int main(int argc, char *argv[])
 		}
 
 	}
+	else
+	{
+		printf("String not found\n");
+	}
 
 	mxmlDelete(tree);
 	fclose(fp);
