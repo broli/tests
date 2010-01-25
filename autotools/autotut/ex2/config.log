@@ -1,0 +1,24 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:530: checking for gcc
+configure:643: checking whether the C compiler (gcc  ) works
+configure:659: gcc -o conftest    conftest.c  1>&5
+configure:685: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:690: checking whether we are using GNU C
+configure:699: gcc -E conftest.c
+configure:718: checking whether gcc accepts -g
+configure:758: checking whether make sets ${MAKE}
+configure:786: checking how to run the C preprocessor
+configure:807: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:866: checking for ANSI C header files
+configure:879: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:946: gcc -o conftest -g -O2   conftest.c  1>&5
+configure: In function 'main':
+configure:941: warning: incompatible implicit declaration of built-in function 'exit'
+configure:972: checking for atol
+configure:1000: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:972: checking for atoi
+configure:1000: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:972: checking for strtod
+configure:1000: gcc -o conftest -g -O2   conftest.c  1>&5
