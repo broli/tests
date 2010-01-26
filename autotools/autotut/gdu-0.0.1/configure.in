@@ -13,7 +13,9 @@ AC_HEADER_STDC
 
 dnl it will define GTK_CFLAGS and GTK_LIBS for us,
 dnl comes from gtk.m4 (aclocal will find it for us)
-AM_PATH_GTK(1.2.6)
+dnl AM_PATH_GTK(1.2.6)
+dnl Upgrade by me to test if it works with gtk2 (stupid old example)
+AM_PATH_GTK_2_0(1.2.6)
 
 AC_LANG_CPLUSPLUS dnl else AM_PATH_GTK blows up
 
